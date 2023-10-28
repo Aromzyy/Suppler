@@ -1,7 +1,7 @@
 
 # Suppler: Skin Condition Classifier
 
-Welcome to Suppler, a user-friendly interface designed to make skin condition diagnosis more accessible and straightforward using the power of machine learning. This application utilizes a MobileNet-V2model that classifies common skin conditions, offering insights to users who might be seeking an initial understanding of their symptoms.
+Welcome to Suppler, a user-friendly interface designed to make skin condition diagnosis more accessible and straightforward using the power of machine learning. This application utilizes a MobileNet-V2model that classifies common skin conditions, offering insights to users who might be seeking an initial understanding of their symptoms. It serves as a screening tool but does not replace the role that dermatologists play in skin health.
 
 ## Getting Started
 
