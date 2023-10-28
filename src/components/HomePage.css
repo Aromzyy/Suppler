@@ -1,0 +1,60 @@
+.container {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .upload-section {
+    margin-top: 30px;
+    border: 1px solid #ccc;
+    padding: 20px;
+  }
+  
+  .upload-section img {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .routine-section {
+    margin-top: 50px;
+  }
+  
+  .skin-types {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+  }
+  
+  .skin-images {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .skin-images img {
+    width: 48%;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #fff;
+    border-top: 1px solid #ccc;
+    padding: 10px 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #aaa;
+  }
+  

@@ -1,25 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+// Importing necessary libraries and components
+import React from 'react';
+import { BrowserRouter as Router } from 'react-router-dom';
+import HomePage from './components/HomePage';
+
+/**
+ * App Component
+ *
+ * This is the main App component that wraps the entire application
+ * inside the React Router's Router component. Currently, it only renders
+ * the HomePage component, but it can be expanded to include more routes
+ * and components in the future.
+ */
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div>
+        {/* This div can be used to wrap multiple components if needed in the future */}
+        <div>
+          <HomePage />  {/* Rendering the HomePage component */}
+        </div>
+      </div>
+    </Router>
   );
 }
 
+// Exporting the App component to be used in other parts of the application
 export default App;
