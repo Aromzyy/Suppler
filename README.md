@@ -1,6 +1,32 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Suppler: Skin Condition Classifier
+
+Welcome to Suppler, a user-friendly interface designed to make skin condition diagnosis more accessible and straightforward using the power of machine learning. This application utilizes a sophisticated model that classifies common skin conditions, offering insights to users who might be seeking an initial understanding of their symptoms.
+
+## Getting Started
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). If you're familiar with it, you'll be right at home. If not, follow the instructions below to get started!
+
+## Prerequisites
+
+- Make sure you have `Node.js` and `npm` (Node Package Manager) installed on your machine. If not, download and install them from [Node.js official website](https://nodejs.org/).
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone [repository_url]
+   ```
+
+2. Navigate to the project directory:
+   ```bash
+   cd suppler
+   ```
+
+3. Install the required dependencies:
+   ```bash
+   npm install
+   ```
 
 ## Available Scripts
 
@@ -8,64 +34,40 @@ In the project directory, you can run:
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+This command runs the app in development mode. Open your browser and go to [http://localhost:3000](http://localhost:3000) to view the application. As you make changes to the code, the page will automatically reload to reflect them.
 
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This command initiates the test runner in an interactive watch mode. For more details, refer to [running tests](https://facebook.github.io/create-react-app/docs/running-tests).
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+This script is used to prepare the app for production. It bundles React in production mode and optimizes the build for the best performance. Once the build process is complete, you'll have a `build` folder with all the necessary files to deploy the app.
 
 ### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+While this is an advanced operation and often not necessary, if you need more control over the build tools and configurations, you can eject from the default setup. Remember, it's a one-way operation; once you eject, there's no turning back!
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Using the Application
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Open the application.
+2. Upload or take a picture of the skin condition you want to diagnose.
+3. Wait for the model to process the image.
+4. Review the results provided by the machine learning model.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Important Links
 
-## Learn More
+- Learn more about how this project was set up in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- If you're new to React, dive into the [React documentation](https://reactjs.org/).
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Troubleshooting
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+If you encounter any issues, particularly the "npm run build fails to minify" error, please refer to the troubleshooting guide provided here: [Troubleshooting guide](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify).
 
-### Code Splitting
+## Feedback & Contribution
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Your feedback is valuable! If you have any suggestions, features you'd like to see, or issues you've encountered, please open an issue. Contributions through pull requests are also welcome!
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# Suppler
+Thanks for choosing Suppler. We hope to make skin condition diagnosis a more accessible and less daunting experience for everyone.
